@@ -1,0 +1,70 @@
+{
+  "name": "giphy-music-video-frontend",
+  "version": "1.0.0",
+  "description": "preact simple frontend for talking to giphy music video api",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline",
+    "test": "echo \"no tests loolnado\"",
+    "lint": "eslint --fix .",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/charlotteisabella/giphy-music-video-frontend.git"
+  },
+  "keywords": [
+    "preact",
+    "webpack"
+  ],
+  "author": "Charlotte McCarthy <charlotte@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlotteisabella/giphy-music-video-frontend/issues"
+  },
+  "homepage": "https://github.com/charlotteisabella/giphy-music-video-frontend#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-flow": "^6.18.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.5.0",
+    "eslint-config-shortlyster": "^2.3.3",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.2.0",
+    "eslint-plugin-react": "^7.4.0",
+    "flow-bin": "^0.54.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.2.1",
+    "prettier": "^1.7.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "dependencies": {
+    "a-plus-forms": "^0.5.2",
+    "axios": "^0.17.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "pell": "^0.7.0",
+    "preact": "^8.2.5",
+    "preact-compat": "^3.17.0",
+    "rc-slider": "^8.3.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-draggable": "^3.0.3",
+    "styled-components": "^2.1.2",
+    "tinycolor2": "^1.4.1"
+  }
+}
